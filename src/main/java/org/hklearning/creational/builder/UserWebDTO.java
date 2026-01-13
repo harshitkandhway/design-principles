@@ -13,11 +13,7 @@ public class UserWebDTO implements UserDTO{
 
     @Override
     public String toString() {
-        return "UserWebDTO{" +
-                "name='" + name + '\'' +
-                ", address='" + address + '\'' +
-                ", age='" + age + '\'' +
-                '}';
+        return STR."UserWebDTO{name='\{name}\{'\''}, address='\{address}\{'\''}, age='\{age}\{'\''}\{'}'}";
     }
 
     public String getAddress() {

@@ -24,9 +24,7 @@ public class UserWebDTOBuilder implements UserDTOBuilder{
 
     @Override
     public UserDTOBuilder withAddress(Address address) {
-        this.address = address.getHouseNumber()+" ,"+address.getStreet()+"\n"+
-                        address.getCity()+" ,"+address.getState()+"\n"+
-                        address.getZipcode();
+        this.address = STR."\{address.getHouseNumber()} ,\{address.getStreet()}\n\{address.getCity()} ,\{address.getState()}\n\{address.getZipcode()}";
         return this;
     }
 
@@ -39,7 +37,7 @@ public class UserWebDTOBuilder implements UserDTOBuilder{
 
     @Override
     public UserWebDTO build(){
-        dto = new UserWebDTO(firstName+" "+lastName,address,age);
+        dto = new UserWebDTO(STR."\{firstName} \{lastName}",address,age);
         return dto;
     }
 

@@ -12,7 +12,7 @@ we have to identify which creational pattern to implement.
 
 Mentioned below are the 7 creational design patterns:
 1) Builder Pattern
-2) Simple Factory Pattern
+2) [Simple Factory Pattern](src/main/java/org/hklearning/creational/simplefactory/SimpleFactory.md)
 3) Factory Pattern
 4) Prototype Pattern
 5) Abstract Factory Pattern
@@ -33,5 +33,7 @@ Mentioned below are the 7 structural design patterns:
 7) Proxy Pattern
 
 Mentioned below is a list of problem statements for each design pattern where you will find real world usecases to implement.
+## Creational Design Pattern
+1) [Simple Factory pattern question](src/main/java/org/hklearning/creational/simplefactory/Problem.md)
 ## Structural Design Pattern
 1) [Adapter pattern question](src/main/java/org/hklearning/structural/adapter/Problem.md)

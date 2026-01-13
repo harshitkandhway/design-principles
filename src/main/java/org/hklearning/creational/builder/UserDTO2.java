@@ -1,6 +1,4 @@
-package org.hklearning.creational.builder2;
-
-import org.hklearning.creational.builder.Address;
+package org.hklearning.creational.builder;
 
 import java.time.LocalDate;
 import java.time.Period;
@@ -36,11 +34,7 @@ public class UserDTO2 {
 
     @Override
     public String toString() {
-        return "UserDTO2{" +
-                "name='" + name + '\'' +
-                ", address='" + address + '\'' +
-                ", age='" + age + '\'' +
-                '}';
+        return STR."UserDTO2{name='\{name}\{'\''}, address='\{address}\{'\''}, age='\{age}\{'\''}\{'}'}";
     }
 
     public static class UserDTO2Builder {
@@ -61,8 +55,7 @@ public class UserDTO2 {
         }
 
         public UserDTO2Builder withAddress(Address address) {
-            this.address = address.getHouseNumber() + " ," + address.getStreet() + " \n" +
-                    address.getCity() + " " + address.getState() + " \n" + address.getZipcode();
+            this.address = STR."\{address.getHouseNumber()} ,\{address.getStreet()} \n\{address.getCity()} \{address.getState()} \n\{address.getZipcode()}";
             return this;
         }
 
@@ -74,7 +67,8 @@ public class UserDTO2 {
 
         public UserDTO2 build() {
             UserDTO2 dto = new UserDTO2();
-            dto.setName(firstName + " " + lastName);
+            //dto.setName(firstName + " " + lastName);
+            dto.setName(STR."\{firstName} \{lastName}");
             dto.setAge(age);
             dto.setAddress(address);
             return dto;

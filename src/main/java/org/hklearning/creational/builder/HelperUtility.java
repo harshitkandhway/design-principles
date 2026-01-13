@@ -1,7 +1,4 @@
-package org.hklearning;
-
-import org.hklearning.creational.builder.Address;
-import org.hklearning.creational.builder.User;
+package org.hklearning.creational.builder;
 
 import java.time.LocalDate;
 
