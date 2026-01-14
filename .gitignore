@@ -4,6 +4,10 @@ target/
 !**/src/test/**/target/
 
 ### IntelliJ IDEA ###
+# Ignore the entire .idea folder
+.idea/
+
+# But allow these specific project-level settings
 .idea/modules.xml
 .idea/jarRepositories.xml
 .idea/compiler.xml

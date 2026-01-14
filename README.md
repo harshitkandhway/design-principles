@@ -13,7 +13,7 @@ we have to identify which creational pattern to implement.
 Mentioned below are the 7 creational design patterns:
 1) Builder Pattern
 2) [Simple Factory Pattern](src/main/java/org/hklearning/creational/simplefactory/SimpleFactory.md)
-3) Factory Pattern
+3) [Factory Pattern](src/main/java/org/hklearning/creational/factorymethod/FactoryMethod.md)
 4) Prototype Pattern
 5) Abstract Factory Pattern
 6) Singleton Pattern
@@ -21,7 +21,7 @@ Mentioned below are the 7 creational design patterns:
 
 ## Structural Design Patterns 
 Structural Design Pattern deals with how classes and objects are structured, arranged or composed to increase 
-code reusability and simplify relations.
+code re-usability and simplify relations.
 
 Mentioned below are the 7 structural design patterns:
 1) [Adapter Pattern](src/main/java/org/hklearning/structural/adapter/Adapter.md)
@@ -32,8 +32,9 @@ Mentioned below are the 7 structural design patterns:
 6) Flyweight Pattern
 7) Proxy Pattern
 
-Mentioned below is a list of problem statements for each design pattern where you will find real world usecases to implement.
+Mentioned below is a list of problem statements for each design pattern where you will find real world use-cases to implement.
 ## Creational Design Pattern
 1) [Simple Factory pattern question](src/main/java/org/hklearning/creational/simplefactory/Problem.md)
+2) [Factory Method Pattern question](src/main/java/org/hklearning/creational/factorymethod/Problem.md)
 ## Structural Design Pattern
 1) [Adapter pattern question](src/main/java/org/hklearning/structural/adapter/Problem.md)
