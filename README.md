@@ -14,7 +14,7 @@ Mentioned below are the 7 creational design patterns:
 1) Builder Pattern
 2) [Simple Factory Pattern](src/main/java/org/hklearning/creational/simplefactory/SimpleFactory.md)
 3) [Factory Pattern](src/main/java/org/hklearning/creational/factorymethod/FactoryMethod.md)
-4) Prototype Pattern
+4) [Prototype Pattern](src/main/java/org/hklearning/creational/prototype/Prototype.md)
 5) Abstract Factory Pattern
 6) Singleton Pattern
 7) Object Pool Pattern
@@ -36,5 +36,6 @@ Mentioned below is a list of problem statements for each design pattern where yo
 ## Creational Design Pattern
 1) [Simple Factory pattern question](src/main/java/org/hklearning/creational/simplefactory/Problem.md)
 2) [Factory Method Pattern question](src/main/java/org/hklearning/creational/factorymethod/Problem.md)
+3) [Prototype Pattern question](src/main/java/org/hklearning/creational/prototype/Problem.md)
 ## Structural Design Pattern
 1) [Adapter pattern question](src/main/java/org/hklearning/structural/adapter/Problem.md)
